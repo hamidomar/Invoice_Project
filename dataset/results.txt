@@ -1,0 +1,185 @@
+**Invoice Processing and Key-Value Pair Extraction**
+
+The provided image is an invoice from Alliance Beverage Distributing, detailing a sale of various alcohol products to Firekeepers Casino on October 9th, 2024. The invoice includes the following key details:
+
+* **Invoice Number:** 5321440
+* **Date:** October 9th, 2024
+* **Customer Name:** Firekeepers Casino
+* **Address:** 11177 Michigan Ave E, Battle Creek, MI 49014
+* **Items Sold:**
+	+ Beringer Main & Vine White Zinfandel (12/750ml) - $48.00
+	+ Heineken Non-Alc (4/6pk 11.2oz BTL) - $30.10
+	+ Bell's Two Hearted Ale (1/28bl) - $180.00
+* **Total:** $974.50
+
+The invoice also includes a note stating that the customer is authorized to purchase and receive the alcoholic items on this invoice.
+
+**JSON Format Output:**
+
+{\
+  "invoice_number": 5321440,\
+  "date": "10/09/2024",\
+  "customer_name": "Firekeepers Casino",\
+  "address": {"street": "11177 Michigan Ave E", "city": "Battle Creek", "state": "MI", "zip": "49014"},\
+  "items_sold": {\
+    "Beringer Main & Vine White Zinfandel (12/750ml)": 48.00,\
+    "Heineken Non-Alc (4/6pk 11.2oz BTL)": 30.10,\
+    "Bell's Two Hearted Ale (1/28bl)": 180.00\
+  },\
+  "total": 974.50\
+}
+
+
+**Invoice Extraction**
+
+The image contains a purchase order receipt from Firekeepers Casino, specifically order number RVF211656-0.
+
+**Key Value Pairs:**
+
+* {"order_number": "RVF211656-0"}
+* {"date": "10/8/2024"}
+
+Note that there is no invoice number present in the document.
+
+
+The image shows a delivery sheet from Firekeepers Casino Hotel, Battle Creek. The document is dated 10/8/2024 and includes information about an order of beer and wine.
+
+**Key Points:**
+
+* **Invoice Number:** POF173248-1
+* **Buyer:** Thomas Stevens
+* **Project:** N/A
+* **Date:** 10/8/2024
+* **Items Ordered:**
+	+ Heineken 0.0 (24 bottles)
+	+ Bell's Two Hearted (12 cases)
+	+ Zinfandel White Beringer (750ml bottle)
+* **Quantity Ordered:** 
+	+ Heineken 0.0: 24 bottles
+	+ Bell’s Two Hearted: 12 cases
+	+ Zinfandel White Beringer: 1 bottle
+
+**JSON Output:**
+
+{ "invoice_number": POF173248-1, 
+"buyer": Thomas Stevens, 
+"project": N/A, 
+"date": 10/8/2024, 
+"items_ordered": [
+    { "name": Heineken 0.0, "quantity": 24 }, 
+    { "name": Bell’s Two Hearted, "quantity": 12 }, 
+    { "name": Zinfandel White Beringer, "quantity": 1 } ] }
+
+Note: The JSON output is formatted as a nested dictionary to represent the hierarchical structure of the data.
+
+
+Here is the data presented in the image in a JSON format:
+
+[{
+  "Vendor ID": "41040",
+  "Account Number": "5321440",
+  "Truck Bay": "101",
+  "Order Date": "10/08/2024",
+  "Stop #": "5",
+  "Payment Terms": "EFT",
+  "Driver Name": "John Bishop",
+  "Sold By": "Firekeepers (House Account)",
+  "Items":
+    [
+      {
+        "Item #": "306",
+        "Product Name": "BELLS TWO HEARTED ALE - 1/2BBL",
+        "Quantity": "6",
+        "Unit Price": "$180.00",
+        "Total Cost": "$1134.00"
+      },
+      {
+        "Item #": "4741",
+        "Product Name": "BERINGER MAIN & VINE WHITE ZINFANDEL - 12/750ML",
+        "Quantity": "1",
+        "Unit Price": "$15.00",
+        "Total Cost": "$48.00"
+      },
+      {
+        "Item #": "55820",
+        "Product Name": "HEINEKEN 0.0 NON-ALC - 4/6PK 11.2OZ BTL.",
+        "Quantity": "1",
+        "Unit Price": "$30.10",
+        "Total Cost": "$32.50"
+      }
+    ],
+  "Subtotal": "$1218.50",
+  "Tax": "$0.00",
+  "Total Cost": "$1218.50",
+  "Payment Method": "EFT",
+  "Delivery Date": "Tuesday, October 08, 2024",
+  "Notes":
+    [
+      {
+        "Note #": "1"
+      }
+    ],
+  "Order Total": "$1218.50"
+}]
+
+
+**Invoice Processing**
+
+**Step 1: Invoice Extraction**
+
+The invoice number is located at the top right corner of the document and reads "01569658".
+
+**Step 2: Key-Value Pair Extraction**
+
+* **Invoice Number:** 01569658
+* **Customer Name:** FIREKEEPERS CASINO
+* **Bill To Address:** 11177 EAST MICHIGAN AVENUE, BATTLE CREEK, MI 49014
+* **Ship To Address:** FIREKEEPERS CASINO COMMISSARY, 11177 EAST MICHIGAN AVENUE, BATTLE CREEK, MI 49014
+
+**Step 3: JSON Output**
+
+The processed invoice data is presented in the following JSON format:
+
+```
+{
+    "invoice_number": "01569658",
+    "customer_name": "FIREKEEPERS CASINO",
+    "bill_to_address": {
+        "street": "11177 EAST MICHIGAN AVENUE",
+        "city": "BATTLE CREEK",
+        "state": "MI",
+        "zip_code": "49014"
+    },
+    "ship_to_address": {
+        "street": "11177 EAST MICHIGAN AVENUE",
+        "city": "BATTLE CREEK",
+        "state": "MI",
+        "zip_code": "49014"
+    }
+}
+```
+
+**Final Answer**
+
+The processed invoice data is presented in the following JSON format:
+
+```
+{
+    "invoice_number": "01569658",
+    "customer_name": "FIREKEEPERS CASINO",
+    "bill_to_address": {
+        "street": "11177 EAST MICHIGAN AVENUE",
+        "city": "BATTLE CREEK",
+        "state": "MI",
+        "zip_code": "49014"
+    },
+    "ship_to_address": {
+        "street": "11177 EAST MICHIGAN AVENUE",
+        "city": "BATTLE CREEK",
+        "state": "MI",
+        "zip_code": "49014"
+    }
+}
+```
+
+

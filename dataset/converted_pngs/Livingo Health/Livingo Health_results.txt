@@ -1,0 +1,78 @@
+"invoice.pdf"
+
+**Invoice Details**
+
+*   Invoice Number: 3133891
+*   Invoice Date: October 2024
+*   Amount Billed: $432.00
+*   Amount Paid: $432.00
+*   Reason for Short Pay: Not specified
+*   Total Short Pay: Not applicable (amount paid is equal to amount billed)
+*   Payment Method: Not specified
+
+**JSON Representation**
+
+```json
+{
+    "invoice_number": 3133891,
+    "date": "October 2024",
+    "billed_amount": 432.00,
+    "paid_amount": 432.00,
+    "short_pay_reason": null,
+    "total_short_pay": null,
+    "payment_method": null
+}
+```
+
+
+"invoice": {
+    "number": "3133891",
+    "date": "09/30/2024",
+    "due_date": "10/30/2024",
+    "amount_due": "$432.00"
+},
+"bill_to": {
+    "address": "FireKeepers Casino Hotel",
+    "city": "Battle Creek",
+    "state": "MI",
+    "zip": "49014",
+    "country": "United States"
+},
+"tax_registration_number": "26-3542036",
+"payment_terms": "Net 30 Days",
+"remittance_instructions": {
+    "method": "Check or Money Order",
+    "address": "Livongo Health Inc, P.O. Box 24004, New York, NY 10087-4004"
+},
+"items": [
+    {
+        "item_id": "DBT_PPPM",
+        "description": "FIREKEEPERS CH",
+        "quantity": "5 ea.",
+        "unit_price": "$72.00",
+        "total_amount": "$360.00"
+    },
+    {
+        "item_id": "DBTP_TM",
+        "description": "FIREKEEPERS CH",
+        "quantity": "1 ea.",
+        "unit_price": "$72.00",
+        "total_amount": "$72.00"
+    }
+],
+"taxes": [
+    {
+        "amount": "$360.00",
+        "rate": "0.00%",
+        "description": "State Tax"
+    },
+    {
+        "amount": "$72.00",
+        "rate": "0.00%",
+        "description": "Federal Tax"
+    }
+],
+"total_amount_due": "$432.00",
+"payment_terms": "Net 30 Days"
+
+

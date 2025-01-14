@@ -1,0 +1,127 @@
+Sure, here is a detailed breakdown of the information from the invoice:
+
+[Caption: An invoice for a purchase order from Alliance Beverage Distributing L.L.C.]
+
+**Invoice Details**
+
+* **Invoice Number**: 5321440
+* **Customer Name**: Firekeepers Casino
+* **Address**: 11177 Michigan Ave E, Battle Creek, MI 49014
+
+**Delivery Information**
+
+* **Delivered To**: Firekeepers Casino
+* **Address**: 11177 Michigan Ave E, Battle Creek, MI 49014
+
+**Items Purchased**
+
+| Item | Quantity | Unit Price | Total |
+| --- | --- | --- | --- |
+| Beringer Main & Vine White Zinfandel | 12/750ml | $15.00 | $180.00 |
+| Heineken Non-Alc 4/6pk 11.2oz BTL | 1 | $30.10 | $30.10 |
+
+**Totals**
+
+* **Subtotal**: $210.10
+* **Tax (8%):** $16.88
+* **Total:** $227.98
+
+**Payment Information**
+
+* **Payment Method:** EFT (Electronic Funds Transfer)
+* **Date:** 10/9/2024
+
+This invoice details a purchase order from Alliance Beverage Distributing L.L.C. to Firekeepers Casino on October 9th, 2024. The items purchased include Beringer Main & Vine White Zinfandel (12/750ml) and Heineken Non-Alc 4/6pk 11.2oz BTL. The total cost of the order is $227.98, including tax.
+
+
+Sure, here is a detailed breakdown of the contents of the image:
+
+*   The image shows an electronic receipt for FireKeepers Casino Hotel at Battle Creek.
+    *   The purchase order number is RVF211656-0
+    *   The date created was 10/8/2024 and the status is Open
+    *   There are no closed or canceled orders listed in this section
+*   The image shows a list of items purchased from Alliance Beverage Distributing LLC.
+    *   The first item listed is Zinfandel White Beringer #19021, which costs $48.00 per unit and has 12 units ordered
+    *   The second item listed is NA Beer Heineken 0.0, which costs $28.60 per case and has 1 case ordered
+    *   The third item listed is Bell's Two Hearted #98B07, which costs $159.00 per keg and has 6 kegs ordered
+*   The image shows a subtotal of $1,030.60 for the items purchased.
+    *   The tax amount is $0.00
+    *   The freight cost is $0.00
+    *   The total cost including tax and freight is $1,030.60
+
+In summary, the electronic receipt from FireKeepers Casino Hotel at Battle Creek shows that they have ordered various items from Alliance Beverage Distributing LLC for a total cost of $1,030.60.
+
+
+**Invoice Details**
+
+* **Invoice Number**: POF173248-1
+* **Project #:** N/A
+* **Buyer**: Thomas Stevens
+* **Vendor:** Alliance Beverage Distributing Company (ABC)
+* **Date**: October 8, 2024
+* **Location**: Firekeepers Casino Hotel
+* **Items Purchased:**
+	+ Bell's Two Hearted #98B07 (1/2 Barrel Keg) - $6.00
+	+ Zinfandel White Beringer #19021 (T3) 12 bt/Case - $12.00
+	+ Heineken NA Beer - $11.20
+
+**Grand Total:** $29.20
+
+
+Sure, here is a concise summary of the invoice:
+
+{
+    "Vendor ID": 41040,
+    "Account #": 5321440,
+    "Firekeepers Casino",
+    "Battle Creek, MI 49014",
+    "269-660-5666",
+    "Delivery Date": 10/08/2024
+}
+
+Truck Bay: 
+{
+    "Bay D #8"
+}
+
+Items:
+{
+    {
+        "Item #": 306,
+        "BELLS TWO HEARTED ALE - 1/2BBL"
+        "Quantity": 6
+        "Price": $954.00
+        "Discount": $180.00
+        "Total Price": $1134.00
+    },
+    {
+        "Item #": 4741,
+        "BERINGER MAIN & VINE WHITE ZINFANDEL - 750ML"
+        "Quantity": 1
+        "Price": $63.00
+        "Discount": $15.00
+        "Total Price": $48.00
+    },
+    {
+        "Item #": 55820,
+        "HEINEKEN 0.0 NON-ALC - 4/6PK 11.2OZ BTL"
+        "Quantity": 1
+        "Price": $30.10
+        "Discount": $2.40
+        "Total Price": $32.50
+    }
+}
+
+Pallet Totals:
+{
+    "Kegs": 6,
+    "Cases": 2,
+    "Units": 0
+}
+
+Order Totals:
+{
+    "Price": $182.40
+}
+
+

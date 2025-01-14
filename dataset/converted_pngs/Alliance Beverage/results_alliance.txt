@@ -1,0 +1,124 @@
+**Invoice Processing and Extraction**
+
+The provided image is a scanned document of an invoice from Alliance Beverage Distributing L.L.C. to Firekeepers Casino, dated 10/8/2024. The following key-value pairs have been extracted:
+
+* {"invoice_number": "5321440"}
+* {"payment_terms": "EFT (Electronic Funds Transfer)"}
+* {"delivery_address": "Firekeepers Casino, 11177 Michigan Ave E, Battle Creek, MI, 49014"}
+* {"date_of_invoice": "10/8/2024"}
+* {"due_date": "10/9/2024"}
+* {"items_sold": ["Beringer Main & Vine White Zinfandel", "Heineken Non-Alc 6pk 11.2oz BTL", "Bells Two Hearted Ale"]}
+
+**Items Sold:**
+
+* **Beringer Main & Vine White Zinfandel**
+	+ Quantity: 1
+	+ Price: $15.00
+* **Heineken Non-Alc 6pk 11.2oz BTL**
+	+ Quantity: 1
+	+ Price: $0.00 (Non-alcoholic)
+* **Bells Two Hearted Ale**
+	+ Quantity: 1
+	+ Price: $6.00
+
+**Total Amount Due:** $21.00
+
+Please note that the total amount due is not explicitly stated in the invoice, but it can be calculated by adding up the prices of all items sold.
+
+**Payment Method:** EFT (Electronic Funds Transfer)
+
+**Notes:**
+
+* The invoice includes a section for "Delivered Goods" and another for "Picked Up", indicating that some items may have been delivered to the customer while others were picked up.
+* There is also a section for "Empty - Supplier Keg Deposit 79 Each", which suggests that the supplier has deposited $30.00 into their account.
+
+Overall, this invoice provides detailed information about the items sold, their prices, and the total amount due. It also includes payment terms and delivery/pickup details.
+
+
+The image shows a purchase order receipt from Firekeepers Casino Hotel, Battle Creek. The document is a formal record of a transaction between Alliance Beverage Distributing LLC and Firekeepers Casino Hotel.
+
+**Invoice Information**
+
+*   **Invoice Number:** 003482
+*   **Date Created:** October 8, 2024
+
+**Purchase Details**
+
+*   **Supplier:** Alliance Beverage Distributing LLC
+*   **Items Purchased:**
+    *   Zinfandel White Beringer #19021 (T3) 12 bt/case - $48.00
+    *   NA Beer, Heineken 0.0 (Alcohol Free) - $28.60
+    *   Bell's Two Hearted #98B07 - $159.00
+
+**Total Cost**
+
+*   The total cost of the items purchased is not explicitly stated in the document.
+
+**Authorization and Approval**
+
+*   The document has been authorized by Brent Smith, who created it on October 8, 2024.
+*   It appears to be a draft or incomplete document, as it lacks a signature from an authorized representative of Firekeepers Casino Hotel.
+
+**Additional Information**
+
+*   The document includes references to other documents and notes that the items are for inventory purposes only.
+*   There is no indication of payment terms or delivery details.
+
+
+Sure, here is the data extracted from the image in a JSON format:
+
+{ "invoice_number": 173248-1,
+"vendor_name": Alliance Beverage Distributing LLC,
+"date_of_invoice": 10/8/2024,
+"address_line_1": 1000 S. Main St., 
+"city": Battle Creek, 
+"state": MI,
+"zip_code": 49017,
+"invoice_total": $2,450.00,
+"terms_and_conditions": Net 30 days,
+"payment_terms": Check or Credit Card
+
+
+**Invoice Extraction and Processing**
+
+The provided image contains an invoice with several sections, including:
+
+*   **Header Section**: This section includes details such as the vendor ID, account number, and delivery date.
+*   **Truck Bay Information**: The truck bay information is located at the top of the page and includes details about the truck bay, pallet ID, and product information.
+*   **Order Details**: Below the header section, there are several lines that list order details, including item numbers, descriptions, quantities, prices, and total costs. 
+*   **Delivery Date and Time**: The delivery date and time are listed at the bottom of the page.
+
+**JSON Output**
+
+Based on the information provided in the image, here is a JSON output that includes relevant key-value pairs for the invoice:
+
+```json
+{
+    "invoice_number": 2514885,
+    "vendor_id": 41040,
+    "account_number": 5321440,
+    "delivery_date": "10/08/2024",
+    "truck_bay": "Bay D #8",
+    "pallet_id": P45107995,
+    "product_info": ["BELLS TWO HEARTED ALE - 1/2BBL", "BERINGER MAIN & VINE WHITE ZINFANDEL"],
+    "order_details": [
+        {
+            "item_number": 306,
+            "description": "BELLS TWO HEARTED ALE - 1/2BBL",
+            "quantity": 6,
+            "price": $954.00,
+            "total_cost": $1134.00
+        },
+        {
+            "item_number": 4741,
+            "description": "BERINGER MAIN & VINE WHITE ZINFANDEL",
+            "quantity": 2,
+            "price": $63.00,
+            "total_cost": $48.00
+        }
+    ],
+    "delivery_date_and_time": "Tuesday, October 08, 2024 at 04:30:17 AM"
+}
+```
+
+
