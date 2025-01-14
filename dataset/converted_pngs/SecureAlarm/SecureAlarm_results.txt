@@ -1,5 +1,0 @@
-Sure, here is an example of the processed image as a JSON file:
-
-{"invoice_number": "6158", "customer_name": "Firekeepers Casino", "date": "10/4/2024", "amount_due": "$2,580.00", "payment_method": "PAYMENTS APPLIED THRU Job / Service Ticket #18992-1"}
-
-
